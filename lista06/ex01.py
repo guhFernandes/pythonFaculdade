@@ -7,7 +7,7 @@ while i < valor:
     num = int(input(f'Informe o numero {i} para o vetor: '))
     vetor.append(num)
 
-    if num >= 0:
+    if num < 0:
         negativos += 1
 
 print(vetor)
